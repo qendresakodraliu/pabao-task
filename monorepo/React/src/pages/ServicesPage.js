@@ -1,6 +1,15 @@
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+
 const ServicesPage =()=>{
     return(
-        <p>ServicesPage</p>
+        <div>
+            <Header></Header>
+            <Footer></Footer>
+
+        </div>
+        
+        
     )
     }
     export default ServicesPage
