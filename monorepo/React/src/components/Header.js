@@ -1,9 +1,9 @@
 import './Header.css'
-const Header=()=>{
+const Header=(props)=>{
     return (
     <header className="headerContent">
-      <h3>Choose service</h3>
-      <p>Step 1/7</p>
+      <h3>{props.title}</h3>
+      <p>{props.subtitle}</p>
     </header>
     )
 }

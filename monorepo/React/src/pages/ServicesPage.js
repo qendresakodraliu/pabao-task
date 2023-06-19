@@ -1,20 +1,17 @@
-import { useParams } from "react-router-dom"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
 import ServicesCard from "../components/ServicesCard"
 import { services } from "../data/services"
 import "./ServicesPage.css"
 
-
-const ServicesPage =()=>{
-   
+const ServicesPage =()=>{   
     return(
         <div>
-            <Header></Header>
+            <Header title={"Choose Service"} subtitle={"Step 1/2"} ></Header>
             <div className="services-card-container" >
                 <div className="container" >
                     {services.map(item=>{
-                        return <ServicesCard image={item.image } name={item.name} id={item.id}  />
+                        return <ServicesCard key={item.id} image={item.image } name={item.name} id={item.id}  />
                     })}
                     
                 </div>
@@ -27,8 +24,7 @@ const ServicesPage =()=>{
             </div>
             <Footer></Footer>
 
-        </div>
-        
+        </div>      
         
     )
     }
