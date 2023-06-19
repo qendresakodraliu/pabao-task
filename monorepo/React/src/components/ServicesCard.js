@@ -1,4 +1,6 @@
 import "./ServicesCard.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
 const ServicesCard =()=>{
     return(
@@ -8,8 +10,8 @@ const ServicesCard =()=>{
                    <img src="https://picsum.photos/50/50?random=1" />
                    <h3 className="description">description</h3>
                 </div>
-                <div>
-                    icon
+                <div className="icon-component">
+                <FontAwesomeIcon icon={faChevronRight } size="2xl" /> 
                 </div>
           
             </div>
