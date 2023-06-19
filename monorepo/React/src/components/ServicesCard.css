@@ -1,28 +1,27 @@
-.card-component{
-    border: 2px  lightgrey solid;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 8px 20px 8px 20px;
-    margin: 5px
-   
+.card-component {
+  border: 2px lightgrey solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 20px 8px 20px;
+  margin: 5px;
 }
 
-.card-content{
-    display: flex;
-    flex-direction: row;    
+.card-content {
+  display: flex;
+  flex-direction: row;
 }
 
-.description{
-    padding-left: 24px;
+.description {
+  padding-left: 24px;
 }
 
-.icon-component{
-    margin-top: 14px;
-    color: lightgrey
+.icon-component {
+  margin-top: 14px;
+  color: lightgrey;
 }
-.text-decoration-none{
-    text-decoration: none;
-    color: black;
+.text-decoration-none {
+  text-decoration: none;
+  color: black;
 }
