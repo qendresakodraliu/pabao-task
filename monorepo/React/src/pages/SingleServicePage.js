@@ -1,7 +1,13 @@
-import { Link } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
+import Header from "../components/Header"
 const SingleServicePage = ()=>{
+    const { id } = useParams();
     return(
-        <Link to="/">Back</Link>
+        <div>
+            <Header></Header>
+            <Link to="/">Back</Link>
+        </div>
+        
     )
 }
 export default SingleServicePage
